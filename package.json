@@ -1,0 +1,14 @@
+{
+	"name": "h3hitema-github-actions",
+	"version": "1.0.0",
+	"description": "Quelques exercices pour apprendre à prendre en main git !",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"jest": "^29.5.0"
+	}
+}
