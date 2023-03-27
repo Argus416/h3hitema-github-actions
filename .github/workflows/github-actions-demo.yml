@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: 3.9
       - name: run python
-      - run: python3 index.py
+      - run: python index.py
   jest:
     runs-on: ubuntu-latest
     steps:
