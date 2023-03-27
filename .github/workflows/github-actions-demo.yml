@@ -24,13 +24,13 @@ jobs:
 
   #     - name: Run Python file
   #     - run: python main.py
-  # jest:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #   - uses: actions/checkout@v3
-  #   - name: Use Node.js
-  #     uses: actions/setup-node@v2
-  #     with:
-  #       node-version: '19'
-  #   - run: yarn install
-  #   - run: yarn test
+  jest:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '19'
+    - run: yarn install
+    - run: yarn test
